@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#ChiffreChoix {
+    position: absolute;
+}
+
+.ClassIdentite {
+    position: absolute;
+}
+
+
+@media (max-width: 800px) {
+    .ClassIdentite {
+        left: 50%;
+        top: 33%;
+        transform: translate(-50%, -50%);
+    }
+
+    #nomPrenomChoix1 {
+        font-size: 15px;
+    }
+
+    #nomPrenomChoix2 {
+        font-size: 15px;
+    }
+
+    #ChiffreChoix {
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 1em;
+        font-size: 70px;
+    }
+}
+
+
+@media (min-width: 801px) {
+    .ClassIdentite {
+        left: 50%;
+        top: 35%;
+        transform: translate(-50%, -50%);
+    }
+
+    #nomPrenomChoix1 {
+        font-size: 30px;
+    }
+
+    #nomPrenomChoix2 {
+        font-size: 30px;
+    }
+
+    #ChiffreChoix {
+        top: 32%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 1em;
+        font-size: 130px;
+    }
+}
+
+.content {
+    /* margin-top: -55%; */
+    border-right: 2px solid #e40606;
+}
+
+.contenue {
+    max-width: 1789px;
+    margin: 0 auto;
+    padding: 0 2.938em;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    display: none;
+}
+
+.back-to-top {
+    display: none;
+    position: fixed;
+    top: auto;
+    bottom: 40px;
+    left: auto;
+    right: 40px;
+    z-index: 99;
+    border: 2px solid #e40606;
+    border-radius: 50%;
+}
+
+input[type="radio"].form-check-input {
+    height: 30px;
+    width: 30px;
+}
+
+@media (max-width: 800px) {
+    .custom-rectangle {
+        width: 40px;
+        height: 200px;
+        border: 4px solid #e40606;
+        border-right: none;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 5px;
+        padding: 10px;
+        z-index: 0;
+
+    }
+}
+
+/* Ajoutez des styles CSS personnalisés ici si nécessaire */
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    background-color: #0E4030;
+    padding: 0.5em;
+    padding-left: 1em;
+    border-radius: 5px;
+}
+
+.social-icons li {
+    margin-right: 10px;
+}
+
+/* .carousel {
+    border-bottom: 4px solid #e40606;
+} */
+
+/* .carousel-container {
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    height: 500px;
+} */
+
+/* .carousel-container::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #001D38;
+    opacity: 0.4;
+    z-index: 1;
+    content: '';
+} */
+
+/* .carousel-slide {
+    display: none;
+    width: 100%;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+.header {
+    position: relative;
+    height: 400px;
+    /* Ajustez la hauteur du header selon vos besoins */
+    overflow: hidden;
+    /* Assurez-vous que le contenu du header ne dépasse pas la hauteur spécifiée */
+}
+
+.carousel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* Assurez-vous que la vidéo ne dépasse pas le conteneur */
+}
+
+.carousel video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ajuste la taille de la vidéo pour couvrir tout le conteneur */
+}
+
+button {
+    background-color: #0E4030;
+    color: #fff;
+    border: 1px solid #0E4030;
+    border-radius: 5px;
+}
+
+footer {
+    border-top: 4px solid #e40606;
+}
+
+@media (max-width: 800px) {
+
+    .carousel-container {
+
+        height: 100%;
+    }
+}
+
+.cropper-container {
+    display: none;
+}

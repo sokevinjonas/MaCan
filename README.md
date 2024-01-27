@@ -59,7 +59,7 @@ Pour accéder au chemin de connexion de l'administrateur, veuillez cliquer sur J
 
 ![Alt text](public/assets/footer.png)
 
-Explorez la plateforme et profitez de l'expérience immersive dédiée à la CAN 2024!
+Explorez la plateforme et profitez de l'expérience immersive dédiée à la CAN 2024! Notez que ce projet a été développé avec Laravel 10.
 
 
 ## Auteur

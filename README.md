@@ -1,74 +1,72 @@
 ## CHALLENGE ODC CAN 2024
 
-![Alt text](public/assets/accueil.png) 
+![Alt text](public/assets/home.png) 
 
 ## Live Demo
 
-Découvrez la démo en direct [ici](https://can.pteam-transfert.com/)
+Discover the live demo [here](https://can.pteam-transfert.com/)
 
 ## Description
-Ce projet a été réalisé dans le cadre du challenge Orange Digital Center (ODC) pour la CAN 2024, organisée en Côte d'Ivoire. L'objectif était de concevoir une plateforme interactive dédiée aux fans, offrant trois principales fonctionnalités :
+This project was carried out as part of the Orange Digital Center (ODC) challenge for the CAN 2024, organized in Côte d'Ivoire. The objective was to design an interactive platform dedicated to fans, offering three main functionalities:
     
-1. Page d'Accueil avec Formulaire :
-    - Les utilisateurs peuvent accéder à une page d'accueil conviviale comprenant un formulaire intuitif.
-    - En fournissant le nom, prenom, et le numero de dossard qu'il souhaite
+1. Home page with form:
+    - Users can access a user-friendly home page featuring an intuitive form.
+    - By providing the name, surname and bib number they wish to subscribe to the event, they are able to create a fan account.
 
-2. Page de Choix du Maillot et le téléchargement du maillot:
-    - Une page dédiée permet aux utilisateurs de choisir et télécharger le maillot de leur équipe favorite.
+2. Jersey choice and download page:
+    - A dedicated page allows users to choose and download the jersey of their favorite team.
 
-    - Les couleurs disponibles sont le Blanc, Vert et Jaune
+    - Available colors are White, Green and Yellow.
         ![Alt text](public/assets/generer.png)
 
-3. Page de Pronostic :
-    - Les utilisateurs ont la possibilité de partager leurs pronostics pour les matchs à venir.
+3. Prediction page:
+    - Users can share their predictions for upcoming matches.
 
     - Image illustration 
         ![Alt text](public/assets/imageProno.png)
 
-## Comment installer le projet?
+## How do I install the project?
 
-`1er etape: Cloner le Repository`
+Step 1: Clone the Repository
 
     git clone https://github.com/jonasdevpro/MaCan.git
 
-`2eme etape: Télécharger les Packages Vendor :`
+Step 2: Download Vendor Packages
 
-    composer install
+    compose install
 
-`3 etape: Copier le fichier .env :`
+Step 3: Copy the .env file :` cp .env.example .env
 
     cp .env.example .env
 
-`4 etape : Générer la Clé API dans .env :`
+Step 4: Generate the API Key in .env :` php artisan key:generate
 
     php artisan key:generate
 
-`5 etape: Lancer le Serveur :`
+`5 step: Launch Server :` php artisan serve
 
     php artisan serve
 
-`6 etape: Effectuer la Migration avec les Factories :`
+`6 step: Migration with Factories :` php artisan migrate --seed
 
     php artisan migrate --seed
 
-## Accès à la Partie Admin :
+## Access to Admin Area :
 
-Veuillez accéder à votre base de données, plus précisément à la table "Administrateurs", pour obtenir les accès générés grâce à la factory.
+Please access your database, more precisely the "Administrators" table, to obtain the accesses generated thanks to the factory.
     
-Pour accéder au chemin de connexion de l'administrateur, veuillez cliquer sur JK.S 👇
+To access the administrator connection path, please click on JK.S 👇
 
 ![Alt text](public/assets/footer.png)
 
-Explorez la plateforme et profitez de l'expérience immersive dédiée à la CAN 2024! Notez que ce projet a été développé avec Laravel 10.
+Explore the platform and enjoy the immersive experience dedicated to CAN 2024! Please note that this project has been developed with Laravel 10.
 
 
-## Auteur
+## Author
 
-[Jonasdev](https://www.linkedin.com/in/jonas-so-784515274) - Développeur Full Stack 
+[Jonasdev](https://www.linkedin.com/in/jonas-so-784515274) - Full Stack Developer 
 
-Pour toute question ou assistance, veuillez:
-[Contactez-moi sur WhatsApp](https://wa.me/+22652645634)
+For any questions or assistance, please:
+[Contact me on WhatsApp](https://wa.me/+22652645634)
 
 ##
-
-

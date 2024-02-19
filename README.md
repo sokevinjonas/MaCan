@@ -67,6 +67,7 @@ Explore the platform and enjoy the immersive experience dedicated to CAN 2024! P
 [Jonasdev](https://www.linkedin.com/in/jonas-so-784515274) - Full Stack Developer 
 
 For any questions or assistance, please:
+
 [Contact me on WhatsApp](https://wa.me/+22652645634)
 
 ##

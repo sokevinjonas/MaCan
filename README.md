@@ -64,7 +64,7 @@ Explorez la plateforme et profitez de l'expérience immersive dédiée à la CAN
 
 ## Auteur
 
-[Jonasdev](https://www.linkedin.com/in/jonas-so-784515274) - Développeur Full Stack 
+[SO Kevin Jonas](https://www.linkedin.com/in/sojonas/) - Développeur Full Stack 
 
 Pour toute question ou assistance, veuillez:
 [Contactez-moi sur WhatsApp](https://wa.me/+22652645634)
